@@ -1,0 +1,4 @@
+{
+    "hello": "Zażółć gęślą jaźń",
+    "greeting": "{{.greetingText}}"
+}

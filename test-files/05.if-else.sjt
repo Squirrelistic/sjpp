@@ -1,0 +1,7 @@
+{
+{{if .sayHello}}    
+    "hello": {{json .name}}
+{{else if .saySeeYa}}
+    "seeYouLater": {{json .name}}
+{{end}}
+}

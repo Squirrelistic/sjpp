@@ -1,0 +1,2 @@
+"included02": {{json .include02}},
+{{include "include02/include02-01.sjt"}}

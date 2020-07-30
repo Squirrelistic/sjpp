@@ -1,0 +1,5 @@
+{
+    "hello": {{json .top}},
+    {{include "07.include/include01.sjt"}},
+    {{include "07.include/include02.sjt"}}
+}
