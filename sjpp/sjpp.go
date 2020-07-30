@@ -107,9 +107,9 @@ func saveOutputToFile(output string, outputFile string) {
 	bufferedOutputWriter.Flush()
 }
 
-func main() {
-	var version = "1.0.0"
+var version = "1.0.0"
 
+func main() {
 	defer func() {
 		if err := recover(); err != nil {
 			fmt.Fprintln(os.Stderr, "Error:", err)

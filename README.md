@@ -33,7 +33,7 @@ This equation probably doesn't make sense, so let's delve into an obligatory Hel
 
 ## Examples ##
 
-Check out *test-files* directory<br/>
+Check out *[test-files](test-files)* directory<br/>
 &nbsp;&nbsp;in this Github repository<br/>
 Can you see the examples factory?<br/>
 &nbsp;&nbsp;is it satisfactory?
@@ -85,12 +85,12 @@ Here is the sexy table which will shed a light on the JSON encoding multiverse.
 
 Template snippet | Output | Explanation
 ---------------- | ------ | -----------
-{{ .param1 }} | " | Not escaped, not enclosed in ""
-{{ json .param1 }} | "\\"" | Escaped, enclosed in ""
-{{ jsonEscape .param1 }} | \\" | Escaped, not enclosed in ""
-{{ .param2 }} | [Squirrels are nice] | String representation of an array, not escaped, not enclosed in ""
-{{ json .param2 }} | \["Squirrels","are","nice"\] | JSON representation of an array, escaped and everything
-{{ jsonEscape .param2 }} | **Kernel Panic!** | Invalid, as jsonEscape only accepts strings, not array or other objects
+{{&nbsp;.param1&nbsp;}} | " | Not escaped, not enclosed in ""
+{{&nbsp;json&nbsp;.param1&nbsp;}} | "\\"" | Escaped, enclosed in ""
+{{&nbsp;jsonEscape&nbsp;.param1&nbsp;}} | \\" | Escaped, not enclosed in ""
+{{&nbsp;.param2&nbsp;}} | [Squirrels are nice] | String representation of an array, not escaped, not enclosed in ""
+{{&nbsp;json&nbsp;.param2&nbsp;}} | \["Squirrels","are","nice"\] | JSON representation of an array, escaped and everything
+{{&nbsp;jsonEscape&nbsp;.param2&nbsp;}} | **Kernel Panic!** | Invalid, as jsonEscape only accepts strings, not array or other objects
 
 ## Contributions ##
 
