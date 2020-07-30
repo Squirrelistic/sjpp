@@ -1,0 +1,2 @@
+# sjpp
+Squirrelistic JSON Preprocessor
